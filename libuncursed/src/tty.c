@@ -67,6 +67,7 @@
 
 /* UNIX-specific headers */
 #define _POSIX_SOURCE 1
+#define _DARWIN_C_SOURCE 1
 #include <sys/select.h>
 #include <termios.h>
 #include <unistd.h>
@@ -90,6 +91,7 @@
 #define CSI "\x1b["
 #define OSC "\x1b]"
 #define ST  "\x1b\\"
+
 
 static int is_inited = 0;
 

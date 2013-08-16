@@ -20,7 +20,6 @@
                 # but have too many false positives to be able to show
                 # them right now
                 'optstring:-Wno-unused-parameter',
-                'optstring:-Wno-unused-result',
                 'optstring:-Wno-sign-compare',
                 'optstring:-Wold-style-definition',
                 'optstring:-Wstrict-prototypes',
